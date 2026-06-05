@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "id": {
+            "type": "keyword"
+        },
+        "name": {
+            "type": "text"
+        },
+        "category": {
+            "type": "keyword"
+        },
+        "price": {
+            "type": "double"
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdOn": {
+            "type": "date",
+            "format": "epoch_millis"
+        }
+    }
+}
